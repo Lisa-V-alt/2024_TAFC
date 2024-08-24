@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import ResultModal from './ResultModal.jsx';
 
-export default function TimerChallenge({ title, targetTime, onChallengeEnd }) {
+export default function TimerChallenge({ title, description, targetTime, onChallengeEnd }) {
   const timer = useRef();
   const dialog = useRef();
 
@@ -36,12 +36,13 @@ export default function TimerChallenge({ title, targetTime, onChallengeEnd }) {
         targetTime={targetTime} 
         remainingTime={timeRemaining} 
         onReset={() => {
-          handleReset();
+          handleReset(); 
           onChallengeEnd();  // Call the onChallengeEnd function here
         }}
       />
       <section className="challenge">
         <h2>{title}</h2>  {/* This now displays only the animal name */}
+        <p>The time it takes a {description}</p>  {/* Displays the animal description */}
         <p className="challenge-time">
           {targetTime} second{targetTime > 1 ? 's' : ''}
         </p>
