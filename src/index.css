@@ -9,8 +9,8 @@ body {
   font-family: 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(#186a5e, #053339);
-  color: #e1eeeb;
+  background: radial-gradient(#533b51, #0a2e33);
+  color: #72d6f5;
   min-height: 100vh;
 }
 
@@ -18,7 +18,7 @@ body {
   max-width: 60rem;
   margin: 2rem auto;
   padding: 2rem;
-  background: radial-gradient(#0b201d, #021619);
+  background: radial-gradient(#3f4a61, #201d25);
   border-radius: 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
 }
@@ -27,7 +27,7 @@ h1 {
   font-family: 'Handjet', monospace;
   text-align: center;
   text-transform: uppercase;
-  color: #c1e2dd;
+  color: #e983f7;
   text-shadow: 0 0 4px rgba(35, 34, 34, 0.4);
   font-size: 3.5rem;
   margin: 0;
@@ -35,14 +35,14 @@ h1 {
 
 h1 em {
   font-style: normal;
-  color: #00eeff;
+  color: #f56c73;
 }
 
 header p {
   font-size: 1.2rem;
   margin: 0;
   text-align: center;
-  color: #c6f4f2;
+  color: #ffbeec;
 }
 
 #player {
@@ -50,7 +50,7 @@ header p {
 }
 
 #player h2 {
-  color: #54a399;
+  color: #ee9368;
 }
 
 #player p {
@@ -61,28 +61,28 @@ header p {
 
 #player input {
   font: inherit;
-  border: 1px solid #54a399;
-  background-color: #192f2b;
+  border: 1px solid #444e7a;
+  background-color: #131518;
   border-radius: 4px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   padding: 0.25rem;
-  color: #d1f0ec;
+  color: #ffbeec;
 }
 
 #player button {
   cursor: pointer;
-  background-color: #54a399;
-  border: 1px solid #54a399;
+  background-color: #856186;
+  border: 1px solid #444e7a;
   padding: 0.4rem 1rem;
-  color: #061e1a;
+  color: #010c0a;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
 #player button:hover {
-  background-color: #3c8379;
-  border-color: #3c8379;
+  background-color: #ee9368;
+  border-color: #ffbeec;
 }
 
 #challenges {
@@ -101,8 +101,8 @@ header p {
   justify-content: center;
   padding: 2rem;
   margin: 2rem auto;
-  background: linear-gradient(#4df8df, #4df0f8);
-  color: #221c18;
+  background: linear-gradient(#f56c73, #ee9368);
+  color: #13100e;
   box-shadow: 0 2px 8px rgba(35, 34, 34, 0.6);
   border-radius: 6px;
 }
@@ -112,7 +112,7 @@ header p {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 4px;
-  background: #12352f;
+  background-color: rgba(28, 14, 51, 0.4);
   color: #edfcfa;
   font-size: 1.2rem;
   cursor: pointer;
@@ -132,7 +132,7 @@ header p {
 }
 
 .challenge-time {
-  border: 1px solid #46cebe;
+  border: 1px solid #d5d8e9;
   border-radius: 4px;
   padding: 0.25rem 0.5rem;
   margin: 0.5rem;
@@ -168,7 +168,7 @@ header p {
   width: 100%;
   height: 1.5rem;
   margin: 0;
-  accent-color: #46cebe;
+  accent-color: #c35acc;
 }
 
 .result-modal p {
@@ -177,7 +177,7 @@ header p {
 }
 
 .result-modal p strong {
-  color: #10655b;
+  color: #f57379;
 }
 
 .result-modal form {

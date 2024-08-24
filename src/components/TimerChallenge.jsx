@@ -41,7 +41,7 @@ export default function TimerChallenge({ title, description, targetTime, onChall
         }}
       />
       <section className="challenge">
-        <h2>{title}</h2>  {/* This now displays only the animal name */}
+        <h2>{title}</h2>  {/* Displays the difficulty level */}
         <p>The time it takes a {description}</p>  {/* Displays the animal description */}
         <p className="challenge-time">
           {targetTime} second{targetTime > 1 ? 's' : ''}

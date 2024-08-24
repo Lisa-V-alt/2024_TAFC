@@ -9,7 +9,7 @@ export default function RandomTimerChallenge({ title, targetTime, animal, onChal
 
   return (
     <TimerChallenge 
-      title={animal?.name ?? 'Loading...'}  // Pass only the animal name
+      title={title}  // Pass only the animal name
       description={animal?.description ?? 'Loading description...'}  // Pass the description
       targetTime={targetTime} 
       onChallengeEnd={onChallengeEnd}
